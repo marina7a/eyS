@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-white p-3 naviqasiya">
+        <div class="container-fluid navDuzulus">
+          <a class="navbar-brand Logo" href="#"><h1>Etsy</h1></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <button class="categories">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Categories
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Accessories</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Art & Collectibles</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Baby</a></li>
+                    <li><a class="dropdown-item" href="#">Bags & Purses</a></li>
+                    <li><a class="dropdown-item" href="#">Bath & Beauty</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Books, Movies & Music</a
+                      >
+                    </li>
+                    <li><a class="dropdown-item" href="#">Clothings</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Craft Supplies & Tools</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Electronics & Accessories</a
+                      >
+                    </li>
+                    <li><a class="dropdown-item" href="#">Gifts</a></li>
+                    <li><a class="dropdown-item" href="#">Home & Living</a></li>
+                    <li><a class="dropdown-item" href="#">Jewelery</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Paper & Party Supplies</a
+                      >
+                    </li>
+                    <li><a class="dropdown-item" href="#">Pet Supplies</a></li>
+                    <li><a class="dropdown-item" href="#">Shoes</a></li>
+                    <li><a class="dropdown-item" href="#">Toys & Games</a></li>
+                    <li><a class="dropdown-item" href="#">Weddings</a></li>
+                  </ul>
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="navdivtwo">
+            <div class="input-group mb-3 search">
+              <input
+                type="text"
+                class="form-control cntrl"
+                placeholder="Search for anything"
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="btn btn-outline-secondary searchBtn"
+                type="button"
+                id="button-addon2"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="navRight">
+          <button class="navSign">Sign in</button>
+          <button
+            type="button"
+            class="btn btn-secondary navBttn"
+            data-bs-toggle="tooltip"
+            data-bs-placement="bottom"
+            data-bs-title="Favorites"
+          >
+            <i class="fa-regular fa-heart btnIcon"></i>
+          </button>
+          <button
+            type="button"
+            class="btn btn-secondary navBttn"
+            data-bs-toggle="tooltip"
+            data-bs-placement="bottom"
+            data-bs-title="Gifts"
+          >
+            <i class="fa-solid fa-gift btnIcon"></i>
+          </button>
+          <button
+            type="button"
+            class="btn btn-secondary navBttn"
+            data-bs-toggle="tooltip"
+            data-bs-placement="bottom"
+            data-bs-title="Cart"
+          >
+            <i class="fa-solid fa-cart-shopping btnIcon"></i>
+          </button>
+        </div>
+      </nav>
+      <div class="headerBotton">
+        <button><i class="fa-solid fa-gift"></i> Gifts</button>
+        <button>Halloween Shop</button>
+        <button>Home Favorites</button>
+        <button>Fashion Finds</button>
+        <button>Registry</button>
+      </div>
+    </header>
+    <main>
+      <section class="firstSec">
+       <div class="container">
+        <div class="firstsecone">
+            <img src="/assets/scss/images/giftEtsy.png" alt="" /> <br />
+            <span class="fS-font-size"
+              >Find their perfect gift <br />
+              in just a few clicks!</span
+            ><br />
+            <button class="buttoon">Start gifting</button>
+          </div>
+          <div class="firstsectwo">
+            <img src="/assets/scss/images/secFrst.png" alt="" width="500px" />
+          </div>
+       </div>
+      </section>
+      <section class="secondSec">
+       <div class="container">
+        <div>
+            <h3>Discover the latest trends from small shops</h3>
+          </div>
+          <div class="row row-cols-1 row-cols-md-6 g-4">
+            <div class="col">
+              <div class="card">
+                <div class="circle">
+                  <img
+                  src="/assets/scss/images/il_300x300.6241020456_nr2r.jpg"
+                  class="card-img-top circle"
+                  alt="..."
+                />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Scalloped Edges</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+               <div class="circle">
+                  <img
+                  src="/assets/scss/images/il_300x300.6233923144_gg1e.jpg"
+                  class="card-img-top circle"
+                  alt="..."
+                />
+               </div>
+                <div class="card-body">
+                  <h5 class="card-title">Vintage Trench Coats</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="circle">
+                  <img
+                  src="/assets/scss/images/il_300x300.6218038300_ros5.jpg"
+                  class="card-img-top circle"
+                  alt="..."
+                />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Grandpacore</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+               <div class="circle">
+                  <img
+                  src="/assets/scss/images/il_300x300.5673373264_99n5.jpg"
+                  class="card-img-top circle"
+                  alt="..."
+                />
+               </div>
+                <div class="card-body">
+                  <h5 class="card-title">Halloween Sweatshirts</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="circle">
+                  <img
+                  src="/assets/scss/images/il_300x300.4238882058_jcpf.jpg"
+                  class="card-img-top circle"
+                  alt="..."
+                />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Mushroom Motifs</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="circle">
+                  <img
+                  src="/assets/scss/images/il_300x300.1677113265_djzr.jpg"
+                  class="card-img-top circle"
+                  alt="..."
+                />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Farmhouse Tables</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+       </div>
+      </section>
+      <section class="thirddSec">
+       <div class="container">
+        <div>
+            <h3>Featured categories</h3>
+          </div>
+          <div>
+            <div class="row row-cols-1 row-cols-md-6 g-4">
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="/assets/scss/images/il_300x300.4144763037_cm8c.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Wall decor</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="/assets/scss/images/il_300x300.3411607173_jmb6.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Christmas ornaments</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="/assets/scss/images/il_300x300.5460954945_9tu4.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Digital prints</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="/assets/scss/images/il_300x300.5444700516_ms9s.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Digital prints</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="/assets/scss/images/il_300x300.5200553974_4yjs.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Signs</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="/assets/scss/images/il_300x300.4318918442_ms3e.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Wall decor</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+       </div>
+      </section>
+      <section class="fourthSec">
+        <div class="container">
+            <div>
+                <div>
+                  <h3>Amazing deals, updated daily</h3>
+                </div>
+                <div class="row row-cols-1 row-cols-md-5 g-4">
+                  <div class="col">
+                    <div class="card h-100">
+                      <img
+                        src="/assets/scss/images/il_600x600.5439321012_4qpg.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <p>Personalized Christmas Stocking...</p>
+                        <span>USD 14.70</span>
+                        <span><s>USD 49.01</s> (70% off)</span>
+                        <span>4.9(1,221)</span>
+                        <span>FREE shipping</span>
+                      </div>
+                      <button class="fSecBttn"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img
+                        src="/assets/scss/images/il_600x600.5837140199_3oja.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <p>Custom Name Makeup Bag, Velvet...</p>
+                        <span>USD 18.42</span>
+                        <span><s>USD 36.04</s> (50% off)</span>
+                        <span>4.9(641)</span>
+                      </div>
+                      <button class="fSecBttn"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img
+                        src="/assets/scss/images/il_600x600.6081978089_ac07.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <p>RETURN ADDRESS STAMP Self Inking..</p>
+                        <span>USD 8.99</span>
+                        <span><s>USD 11.99</s> (25% off)</span>
+                        <span>4.9(54,386)</span>
+                        <span>FREE shipping</span>
+                      </div>
+                      <button class="fSecBttn"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img
+                        src="/assets/scss/images/il_600x600.4999904966_peeh.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <p>Custom Makeup Bag, Personalised...</p>
+                        <span>USD 16.45</span>
+                        <span><s>USD 23.50</s> (30% off)</span>
+                        <span>4.8(5,295)</span>
+                      </div>
+                      <button class="fSecBttn"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img
+                        src="/assets/scss/images/il_600x600.6178447140_hj2e.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <p>Personalized Stylus Pens with Metal..</p>
+                        <span>USD 1.91</span>
+                        <span><s>USD 6.79</s> (72% off)</span>
+                        <span>4.9(18,070)</span>
+                      </div>
+                      <button class="fSecBttn"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </section>
+      <section class="fifthSec">
+        <div class="container fifthS">
+                        <div class="row row-cols-1 row-cols-md-3 g-4 fifthSe">
+                            <div class="fifthDiv">
+                                <p>Editors’ Picks</p>
+                                <h3>Halloween Shop</h3>
+                                <span>Get spooky-season picks at scary good prices.</span>
+                                <button class="fifthBtn">Shop these unique finds</button>
+                            </div>
+                          <div class="col">
+                            <div class="card h-100">
+                              <img
+                                src="/assets/scss/images/il_600x600.3271243073_cmph.jpg"
+                                class="card-img-top fifthSimg"  
+                                alt="..."
+                              />
+                              <button class="fSecBttn"><i class="fa-regular fa-heart"></i></button>
+                              <button></button>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card h-100">
+                              <img
+                                src="/assets/scss/images/il_600x600.565518272_kfem.jpg"
+                                class="card-img-top fifthSimg"  
+                                alt="..."
+                              />
+                              <button class="fSecBttn"><i class="fa-regular fa-heart"></i></button>
+                              <button></button>
+                            </div>
+                          </div>
+                        </div>
+                <div>
+                    <div class="row row-cols-1 row-cols-md-4 g-4">
+                      <div class="col">
+                        <div class="card h-100">
+                          <img
+                            src="/assets/scss/images/il_600x600.5836772714_2zq3.jpg"
+                            class="card-img-top fifthSimg"
+                            alt="..."
+                          />
+                          <button class="fSecBttn"><i class="fa-regular fa-heart"></i></button>
+                          <button></button>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card h-100">
+                          <img
+                            src="/assets/scss/images/il_600x600.4157107940_eh8l.jpg"
+                            class="card-img-top fifthSimg"
+                            alt="..."
+                          />
+                          <button class="fSecBttn"><i class="fa-regular fa-heart"></i></button>
+                          <button></button>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card h-100">
+                          <img
+                            src="/assets/scss/images/il_600x600.2504474000_3nqj.jpg"
+                            class="card-img-top fifthSimg"
+                            alt="..."
+                          />
+                          <button class="fSecBttn"><i class="fa-regular fa-heart"></i></button>
+                          <button></button>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card h-100">
+                          <img
+                            src="/assets/scss/images/il_600x600.6364139483_33mt.jpg"
+                            class="card-img-top fifthSimg"
+                            alt="..."
+                          />
+                          <button class="fSecBttn"><i class="fa-regular fa-heart"></i></button>
+                          <button></button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+        </div>
+      </section>
+      <section class="sixthSec">
+        <div class="container">
+            <div>
+                <h3>Shop extraordinary items at special prices</h3>
+              </div>
+              <div>
+                <div class="row row-cols-1 row-cols-md-5 g-4">
+                  <div class="col">
+                    <div class="card h-100">
+                      <img
+                        src="/assets/scss/images/il_300x300.1241162926_4l17.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <span>Hurry! Halloween</span>
+                        <span>up to 50% off</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img
+                        src="/assets/scss/images/il_300x300.5238404415_r7rk.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <span>Elevated everyday jewelry</span>
+                        <span>up to 15% off</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img
+                        src="/assets/scss/images/il_300x300.3789154008_cmyz.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <span>Charcuterie boards</span>
+                        <span>up to 20% off</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img
+                        src="/assets/scss/images/il_300x300.5861777910_ig52.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <span>Trending: burgundy finds</span>
+                        <span>up to 20% off</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img
+                        src="/assets/scss/images/il_300x300.5201038298_f5g0.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <span>Wreaths</span>
+                        <span>up to 30% off</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </section>
+      <section class="seventhSec">
+       <div class="container">
+        <div>
+            <div>
+              <h2>What is Etsy?</h2>
+              <a href="">Read our wonderfully weird story</a>
+            </div>
+          </div>
+          <div class="svnDiv">
+            <div>
+              <h3>A community doing good</h3>
+              <p>
+                Etsy is a global online marketplace, where people come together to
+                make, sell, buy, and collect unique items. We’re also a community
+                pushing for positive change for small businesses, people, and the
+                planet. Here are some of the ways we’re making a positive impact,
+                together.
+              </p>
+            </div>
+            <div>
+              <h3>Support independent creators</h3>
+              <p>
+                There’s no Etsy warehouse – just millions of people selling the
+                things they love. We make the whole process easy, helping you
+                connect directly with makers to find something extraordinary.
+              </p>
+            </div>
+            <div>
+              <h3>Peace of mind</h3>
+              <p>
+                Your privacy is the highest priority of our dedicated team. And if
+                you ever need assistance, we are always ready to step in for
+                support.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h4>Have a question? Well, we’ve got some answers.</h4>
+              <div class="svnDiv"><button>Go to Help Center</button></div>
+            </div>
+          </div>
+       </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="containerOne">
+            <div class="ftwo">
+              <p>
+                Yes! Send me exclusive offers, unique gift ideas, and personalized
+                tips for shopping and selling on Etsy.
+              </p>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your email"
+                  aria-label="Recipient's username"
+                  aria-describedby="button-addon2"
+                />
+                <button
+                  class="btn btn-outline-secondary"
+                  type="button"
+                  id="button-addon2"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="qutu">
+            <div>
+              <div>
+               <div class="miniDiv">
+                <div>
+                    <div>
+                      <img src="/assets/scss/images/etsy_picture.png" alt="" />
+                      <button class="butn">Download the Etsy App</button>
+                    </div>
+                  </div>
+                  <div class="mininDiv">
+                    <div class="footOne">
+                      <h5>Shop</h5>
+                      <a href="">Gift cards</a>
+                      <a href="">Etsy Registry</a>
+                      <a href="">Sitemap</a>
+                      <a href="">Etsy blog</a>
+                      <a href="">Etsy United Kingdom</a>
+                      <a href="">Etsy Germany</a>
+                      <a href="">Etsy Canada</a>
+                    </div>
+                    <div class="footOne">
+                      <h5>Sell</h5>
+                      <a href="">Sell on Etsy</a>
+                      <a href="">Teams</a>
+                      <a href="">Forums</a>
+                      <a href="">Affiliates & Creators</a>
+                    </div>
+                    <div class="footOne">
+                      <h5>About</h5>
+                      <a href="">Etsy, Inc.</a>
+                      <a href="">Policies</a>
+                      <a href="">Inverstors</a>
+                      <a href="">Careers</a>
+                      <a href="">Press</a>
+                      <a href="">Impact</a>
+                      <a href="">Legal imprint</a>
+                    </div>
+                    <div class="footOne">
+                      <h5>Help</h5>
+                      <a href="">Help Center</a>
+                      <a href="">Privacy settings</a>
+                      <div>
+                        <button><i class="fa-brands fa-instagram"></i></button>
+                        <button><i class="fa-brands fa-facebook"></i></button>
+                        <button><i class="fa-brands fa-pinterest"></i></button>
+                        <button><i class="fa-brands fa-twitter"></i></button>
+                        <button><i class="fa-brands fa-youtube"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <i class="fa-solid fa-earth-americas"></i> Azerbaijan | English (US) |
+                    $ (USD)
+                  </div>
+                  <div>
+                    <span>© 2024 Etsy, Inc.</span>
+                    <a href="">Terms of Use</a>
+                    <a href="">Privacy</a>
+                    <a href="">Interest-based ads</a>
+                    <a href="">Local Shops</a>
+                    <a href="">Regions</a>
+                  </div>
+                </div>
+               </div> 
+          </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

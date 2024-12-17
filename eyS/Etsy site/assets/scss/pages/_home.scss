@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content:center ;
+    justify-content: center;
+}
+.naviqasiya{
+    width: 90%;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.navRight{
+    width: 15%;
+}
+.navDuzulus{
+    width: 80%;
+    h1{
+        color: orange;
+        font-family: 'Times New Roman';
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+.categories{
+    border: none;
+    background-color: transparent;
+    &:hover{ border-radius: 25px;
+    background-color: lightgray;
+cursor: pointer;}
+}
+.navdivtwo{
+    width: 60%;
+    .search{
+        .cntrl{
+            border: 2px solid black;
+            border-radius: 25px;
+        }
+        .searchBtn{
+            background-color: orangered;
+            border-radius: 45%;
+            color: white;
+            &:hover{
+                border-radius: none;
+                background-color: rgb(243, 137, 98);
+            }
+        }
+    }
+}
+.navSign{
+background-color: transparent;
+border: none;
+padding: 7px;
+font-size: 12.99px;
+&:hover{
+    border-radius: 25px;
+    background-color: lightgray;
+}
+.navBttn{
+    .btnIcon{
+        background-color: none;
+    gap: 3px;
+    padding: 3px;
+    color: white;
+    }
+}
+}
+.headerBotton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+        background-color: transparent;
+        padding: 7px;
+        border: none;
+        font-size: 12.99px;
+        cursor: pointer;
+        &:hover{
+            background-color: lightgray;
+            border-radius: 25px;
+        }
+    }
+}
+.firstSec{
+    .container {
+    width: 90%;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+   background-color: rgb(30, 67, 30);}
+    .fS-font-size{
+        font-size: 40px;
+    }
+    .firstsecone{
+        width: 50%;
+        color: white;
+        
+    }
+    .firstsectwo{
+        width: 30%;
+        display: flex;
+        justify-content: end;
+    }
+}
+.card{
+    cursor: pointer;
+    border: none;
+    &:hover{
+        border: 1px solid black;
+        box-shadow: inset;
+    }
+    .circle{
+        border-radius: 50%;
+    }
+}
+.fSecBttn{
+    border-radius: 50%;
+    width: 30px;
+    display: none;
+    position: relative;
+    &:hover{
+position: absolute;
+top: 25px;
+left: 25px;
+display: block;
+z-index:auto;
+color: white;
+    background-color: white;
+    }
+}
+.container .fifthS{
+    display: flex;
+    justify-content: space-between;
+    .fifthSe{
+        .fifthDiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .fifthBtn{
+            border-radius: 25px;
+            background-color: lightgray;
+            &:hover{
+                background-color: gray;
+            }
+        }
+    }
+    }
+}
+.seventhSec{
+    width: 100%;
+    background-color: rgb(255, 234, 208);
+    .container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       .svnDiv{
+        display: flex;
+        justify-content: center;
+        button{
+            background-color: transparent;
+            border: 2px solid black;
+            border-radius: 25px;
+            padding: 7px;
+        }
+       }
+}
+}
+footer{
+    width: 100%;
+    background-color: blue;
+    color: white;
+
+.container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+
+    .qutu{
+        display: flex;
+       justify-content: space-between;
+       a{
+        color: white;
+       }
+    }
+}
+}
+.footOne{
+    display: flex;
+    flex-direction: column;
+}
+.miniDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.mininDiv{
+    display: flex;
+    justify-content: center;
+}
+.butn{
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 7px;
+}
+.buttoon{
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 25px;
+    padding: 7px;
+}
+@media screen (min-width:100px) and (max-width:1467px) {
+    .navRight{
+        display:none;
+    }
+}
